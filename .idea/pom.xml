@@ -4,9 +4,11 @@
     <groupId>ELE</groupId>
     <artifactId>hodgifypodgify</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependency>
-        <groupId>se.michaelthelin.spotify</groupId>
-        <artifactId>spotify-web-api-java</artifactId>
-        <version>8.4.1</version>
-    </dependency>
+    <dependencies>
+        <dependency>
+            <groupId>se.michaelthelin.spotify</groupId>
+            <artifactId>spotify-web-api-java</artifactId>
+            <version>8.4.1</version>
+        </dependency>
+    </dependencies>
 </project>
