@@ -1,0 +1,251 @@
+{
+    "recently_played_songs": [
+        {
+            "title": "\u4e8c\u5ea6\u5bdd",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273b1ddd0574900c7a65a032fe1"
+        },
+        {
+            "title": "\u306e\u3073\u3057\u308d",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b2731e41d9ecc493a1341880bc1c"
+        },
+        {
+            "title": "\u5815\u5929",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b27318285df0b7581a0fcc806afc"
+        },
+        {
+            "title": "vs. SAYU",
+            "artists": [
+                "James Landino",
+                "Nikki Simmons"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d63839fbd533ac070ad54f25"
+        },
+        {
+            "title": "vs. SAYU",
+            "artists": [
+                "James Landino",
+                "Nikki Simmons"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d63839fbd533ac070ad54f25"
+        },
+        {
+            "title": "you were good to me",
+            "artists": [
+                "Jeremy Zucker",
+                "Chelsea Cutler"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d841ad4d4aa791514d7e9758"
+        },
+        {
+            "title": "you were good to me",
+            "artists": [
+                "Jeremy Zucker",
+                "Chelsea Cutler"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d841ad4d4aa791514d7e9758"
+        },
+        {
+            "title": "tonight",
+            "artists": [
+                "demxntia"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273c5ae680bfcc08d9ec93b6227"
+        },
+        {
+            "title": "tonight",
+            "artists": [
+                "demxntia"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273c5ae680bfcc08d9ec93b6227"
+        }
+    ],
+    "top_5_songs": [
+        {
+            "title": "you were good to me",
+            "artists": [
+                "Jeremy Zucker",
+                "Chelsea Cutler"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d841ad4d4aa791514d7e9758"
+        },
+        {
+            "title": "\u306e\u3073\u3057\u308d",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b2731e41d9ecc493a1341880bc1c"
+        },
+        {
+            "title": "Bling-Bang-Bang-Born",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b2733f6de9c0ca2148edf20daa6b"
+        },
+        {
+            "title": "\u5815\u5929",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b27318285df0b7581a0fcc806afc"
+        },
+        {
+            "title": "vs. SAYU",
+            "artists": [
+                "James Landino",
+                "Nikki Simmons"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d63839fbd533ac070ad54f25"
+        },
+        {
+            "title": "\u4e8c\u5ea6\u5bdd",
+            "artists": [
+                "Creepy Nuts"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273b1ddd0574900c7a65a032fe1"
+        }
+    ],
+    "top_3_album_covers": [
+        {
+            "name": {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0pWR7TsFhvSCnbmHDjWgrE"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 1380559
+                },
+                "genres": [
+                    "j-pop"
+                ],
+                "href": "https://api.spotify.com/v1/artists/0pWR7TsFhvSCnbmHDjWgrE",
+                "id": "0pWR7TsFhvSCnbmHDjWgrE",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb71c03bb9c1fe71f40a5fe1dc",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab6761610000517471c03bb9c1fe71f40a5fe1dc",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f17871c03bb9c1fe71f40a5fe1dc",
+                        "width": 160
+                    }
+                ],
+                "name": "Creepy Nuts",
+                "popularity": 75,
+                "type": "artist",
+                "uri": "spotify:artist:0pWR7TsFhvSCnbmHDjWgrE"
+            },
+            "art": "https://i.scdn.co/image/ab6761610000e5eb71c03bb9c1fe71f40a5fe1dc"
+        }
+    ],
+    "top_3_artists": [
+        {
+            "name": {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0pWR7TsFhvSCnbmHDjWgrE"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 1380559
+                },
+                "genres": [
+                    "j-pop"
+                ],
+                "href": "https://api.spotify.com/v1/artists/0pWR7TsFhvSCnbmHDjWgrE",
+                "id": "0pWR7TsFhvSCnbmHDjWgrE",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb71c03bb9c1fe71f40a5fe1dc",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab6761610000517471c03bb9c1fe71f40a5fe1dc",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f17871c03bb9c1fe71f40a5fe1dc",
+                        "width": 160
+                    }
+                ],
+                "name": "Creepy Nuts",
+                "popularity": 75,
+                "type": "artist",
+                "uri": "spotify:artist:0pWR7TsFhvSCnbmHDjWgrE"
+            },
+            "art": "https://i.scdn.co/image/ab6761610000e5eb71c03bb9c1fe71f40a5fe1dc"
+        }
+    ],
+    "recommended_songs": [
+        {
+            "name": "Theme Of Bayonetta 2 - Tomorrow Is Mine",
+            "artist": "Keeley Bumford",
+            "album": "BAYONETTA 2 Original Soundtrack (Vol. 1)",
+            "url": "https://open.spotify.com/track/51LGuWrjzyRtSRZZNr3zCL"
+        },
+        {
+            "name": "Squid Rave",
+            "artist": "James Landino",
+            "album": "Squid Rave",
+            "url": "https://open.spotify.com/track/5rvxC8FmBU4zxpb1qJi1f6"
+        },
+        {
+            "name": "\u30ae\u30bf\u30fc\u3068\u5b64\u72ec\u3068\u84bc\u3044\u60d1\u661f",
+            "artist": "\u7d50\u675f\u30d0\u30f3\u30c9",
+            "album": "\u7d50\u675f\u30d0\u30f3\u30c9",
+            "url": "https://open.spotify.com/track/1rgncjmlpHMP3DBhpagyVb"
+        },
+        {
+            "name": "\u541b\u306e\u305b\u3044",
+            "artist": "the peggies",
+            "album": "Hell like Heaven",
+            "url": "https://open.spotify.com/track/7jEwBMtA7gM43NxiuvfF3h"
+        },
+        {
+            "name": "THE DAY",
+            "artist": "PornoGraffitti",
+            "album": "Butterfly Effect",
+            "url": "https://open.spotify.com/track/1tjOClAkdMxDfYPO0xvGbG"
+        }
+    ],
+    "recommended_artists": {
+        "2IUl3m1H1EQ7QfNbNWvgru": {
+            "name": "Vaundy",
+            "url": "https://open.spotify.com/artist/2IUl3m1H1EQ7QfNbNWvgru"
+        },
+        "6cutt8thPFUICMfxaYerWd": {
+            "name": "MY FIRST STORY",
+            "url": "https://open.spotify.com/artist/6cutt8thPFUICMfxaYerWd"
+        },
+        "7LTiBdByoaUd329wCpmMcM": {
+            "name": "MAISONdes",
+            "url": "https://open.spotify.com/artist/7LTiBdByoaUd329wCpmMcM"
+        },
+        "1KXJUpTiNeMv93LrJbbm7G": {
+            "name": "\u7f8e\u6ce2",
+            "url": "https://open.spotify.com/artist/1KXJUpTiNeMv93LrJbbm7G"
+        },
+        "2raQe3AjMykp6K4Y890owO": {
+            "name": "SAKURAmoti",
+            "url": "https://open.spotify.com/artist/2raQe3AjMykp6K4Y890owO"
+        }
+    }
+}

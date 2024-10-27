@@ -1,3 +1,11 @@
+
+function populate(obj) {
+    const top5Songs = document.querySelector('.overlay-text-fivesongs');
+    const text = document.createElement('p');
+    text.textContent = `Title: ${obj.title}\nArtists: ${obj.artists.join(', ')}\nAlbum Art: ${obj.album_art}`;
+    top5Songs.appendChild(text);
+}
+
 fetch('spotify_data.json')
     .then(response => response.json())
     .then(data => {
@@ -6,6 +14,7 @@ fetch('spotify_data.json')
             console.log(`Title: ${song.title}`);
             console.log(`Artists: ${song.artists.join(', ')}`);
             console.log(`Album Art: ${song.album_art}`);
+            populate(song)
         });
         const topSongs = data.top_5_songs;
         topSongs.forEach(song => {
