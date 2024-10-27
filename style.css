@@ -22,12 +22,14 @@ a:link {
   text-decoration: underline;
   text-align: center;
   margin: 20px;
+  font-size: 20px;
 }
 a:visited {
   color: #FF8A5B;
   text-decoration: underline;
   text-align: center;
   margin: 20px;
+  font-size: 20px;
 }
 
 h6{
