@@ -2,7 +2,7 @@
 function populateSongs(obj) {
     const top5Songs = document.querySelector('.overlay-text-fivesongs');
     const text = document.createElement('p');
-    text.textContent = `Title: ${obj.title}\nArtists: ${obj.artists.join(', ')}\nAlbum Art: ${obj.album_art}`;
+    text.textContent = `${obj.title}, ${obj.artists.join(', ')}`;
     top5Songs.appendChild(text);
 }
 
