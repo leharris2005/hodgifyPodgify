@@ -40,5 +40,15 @@ fetch('spotify_data.json')
             console.log(`Name: ${artist.name}`);
             console.log(`Art: ${artist.url}`);
         });
+        const currentSong = data.current_song;
+        currentSong.forEach(song => {
+            console.log(`Title: ${song.title}`);
+            console.log(`Artists: ${song.artists.join(', ')}`);
+            console.log(`Album Art: ${song.album_art}`);
+        });
+        const topGenre = data.top_genres;
+        topGenre.forEach(genre => {
+            console.log('${genre}')
+        })
     })
     .catch(error => console.error('Error loading JSON:', error));
