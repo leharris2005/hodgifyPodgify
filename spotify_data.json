@@ -1,61 +1,61 @@
 {
     "recently_played_songs": [
         {
-            "title": "Crickets Chirping",
-            "artists": [
-                "Lost & Sound"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b273673fca653083df850f91c039"
-        },
-        {
-            "title": "If I Ruled the World",
-            "artists": [
-                "BTS"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b27338a73fb596e530ac18446812"
-        },
-        {
-            "title": "Gone Away (HAN, Seungmin, I.N)",
+            "title": "Silent Cry",
             "artists": [
                 "Stray Kids"
             ],
             "album_art": "https://i.scdn.co/image/ab67616d0000b2731843897a2a72dd5036bbb1fc"
         },
         {
-            "title": "724148",
-            "artists": [
-                "Agust D"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b273d50c63294b5dd4f6b7f79429"
-        },
-        {
-            "title": "Promise",
-            "artists": [
-                "Jimin"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b27321d21c44fa7a2495c37ce088"
-        },
-        {
-            "title": "badbye (with eAeon)",
-            "artists": [
-                "RM",
-                "eAeon"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b273080a745e13dec66b01f7b318"
-        },
-        {
-            "title": "Super Bowl -Japanese ver.-",
+            "title": "Easy",
             "artists": [
                 "Stray Kids"
             ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b2732bf99b83ee939b83b3ab55b0"
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273fad8c4176e8df7173479f959"
         },
         {
-            "title": "moonchild",
+            "title": "Song Request (feat. SUGA of BTS)",
             "artists": [
-                "RM"
+                "Lee So Ra",
+                "SUGA"
             ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b273080a745e13dec66b01f7b318"
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273a2622af5f9c0f4cecf60646b"
+        },
+        {
+            "title": "OUTRO : The Journey",
+            "artists": [
+                "BTS"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273da9c76ed020a7894443a3f97"
+        },
+        {
+            "title": "Look Here",
+            "artists": [
+                "BTS"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273abe7090bc3ae94d741dfaf6b"
+        },
+        {
+            "title": "Look Here",
+            "artists": [
+                "BTS"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273abe7090bc3ae94d741dfaf6b"
+        },
+        {
+            "title": "Look Here",
+            "artists": [
+                "BTS"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273abe7090bc3ae94d741dfaf6b"
+        },
+        {
+            "title": "Up All Night (Bang Chan, Changbin, Felix, Seungmin)",
+            "artists": [
+                "Stray Kids"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273d681b1b80c5dff43d2f4a3df"
         }
     ],
     "top_5_songs": [
@@ -97,272 +97,62 @@
     ],
     "top_3_album_covers": [
         {
-            "name": {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/62T5PGHWJ9sxP2SJq20IHq"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 508365
-                },
-                "genres": [
-                    "k-pop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/62T5PGHWJ9sxP2SJq20IHq",
-                "id": "62T5PGHWJ9sxP2SJq20IHq",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb0a49e2caa8d0ce8e26f60eed",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051740a49e2caa8d0ce8e26f60eed",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1780a49e2caa8d0ce8e26f60eed",
-                        "width": 160
-                    }
-                ],
-                "name": "PURPLE KISS",
-                "popularity": 52,
-                "type": "artist",
-                "uri": "spotify:artist:62T5PGHWJ9sxP2SJq20IHq"
-            },
-            "art": "https://i.scdn.co/image/ab6761610000e5eb0a49e2caa8d0ce8e26f60eed"
+            "title": "Geekyland",
+            "artists": "PURPLE KISS",
+            "album_art": "https://i.scdn.co/image/ab67616d0000b2730b479d89335fbca7de943443"
         },
         {
-            "name": {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 76395358
-                },
-                "genres": [
-                    "k-pop",
-                    "k-pop boy group",
-                    "pop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX",
-                "id": "3Nrfpe0tUJi4K4DXYWgMUX",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174d642648235ebf3460d2d1f6a",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178d642648235ebf3460d2d1f6a",
-                        "width": 160
-                    }
-                ],
-                "name": "BTS",
-                "popularity": 87,
-                "type": "artist",
-                "uri": "spotify:artist:3Nrfpe0tUJi4K4DXYWgMUX"
-            },
-            "art": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a"
+            "title": "memeM",
+            "artists": "PURPLE KISS",
+            "album_art": "https://i.scdn.co/image/ab67616d0000b27346c28fd13126fd9428625411"
         },
         {
-            "name": {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2PqkSKtPxs112KDZdRXGO2"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 99400
-                },
-                "genres": [
-                    "indie game soundtrack"
-                ],
-                "href": "https://api.spotify.com/v1/artists/2PqkSKtPxs112KDZdRXGO2",
-                "id": "2PqkSKtPxs112KDZdRXGO2",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebe17351c781f0cd9ae4b6442e",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174e17351c781f0cd9ae4b6442e",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178e17351c781f0cd9ae4b6442e",
-                        "width": 160
-                    }
-                ],
-                "name": "ConcernedApe",
-                "popularity": 61,
-                "type": "artist",
-                "uri": "spotify:artist:2PqkSKtPxs112KDZdRXGO2"
-            },
-            "art": "https://i.scdn.co/image/ab6761610000e5ebe17351c781f0cd9ae4b6442e"
+            "title": "HIDE & SEEK",
+            "artists": "PURPLE KISS",
+            "album_art": "https://i.scdn.co/image/ab67616d0000b2730865f5f5799f2ee1b3c0fcec"
         }
     ],
-    "top_3_artists": [
-        {
-            "name": {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/62T5PGHWJ9sxP2SJq20IHq"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 508365
-                },
-                "genres": [
-                    "k-pop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/62T5PGHWJ9sxP2SJq20IHq",
-                "id": "62T5PGHWJ9sxP2SJq20IHq",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb0a49e2caa8d0ce8e26f60eed",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051740a49e2caa8d0ce8e26f60eed",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1780a49e2caa8d0ce8e26f60eed",
-                        "width": 160
-                    }
-                ],
-                "name": "PURPLE KISS",
-                "popularity": 52,
-                "type": "artist",
-                "uri": "spotify:artist:62T5PGHWJ9sxP2SJq20IHq"
-            },
-            "art": "https://i.scdn.co/image/ab6761610000e5eb0a49e2caa8d0ce8e26f60eed"
-        },
-        {
-            "name": {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 76395358
-                },
-                "genres": [
-                    "k-pop",
-                    "k-pop boy group",
-                    "pop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX",
-                "id": "3Nrfpe0tUJi4K4DXYWgMUX",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174d642648235ebf3460d2d1f6a",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178d642648235ebf3460d2d1f6a",
-                        "width": 160
-                    }
-                ],
-                "name": "BTS",
-                "popularity": 87,
-                "type": "artist",
-                "uri": "spotify:artist:3Nrfpe0tUJi4K4DXYWgMUX"
-            },
-            "art": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a"
-        },
-        {
-            "name": {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2PqkSKtPxs112KDZdRXGO2"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 99400
-                },
-                "genres": [
-                    "indie game soundtrack"
-                ],
-                "href": "https://api.spotify.com/v1/artists/2PqkSKtPxs112KDZdRXGO2",
-                "id": "2PqkSKtPxs112KDZdRXGO2",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebe17351c781f0cd9ae4b6442e",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174e17351c781f0cd9ae4b6442e",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178e17351c781f0cd9ae4b6442e",
-                        "width": 160
-                    }
-                ],
-                "name": "ConcernedApe",
-                "popularity": 61,
-                "type": "artist",
-                "uri": "spotify:artist:2PqkSKtPxs112KDZdRXGO2"
-            },
-            "art": "https://i.scdn.co/image/ab6761610000e5ebe17351c781f0cd9ae4b6442e"
-        }
-    ],
+    "top_3_artists": [],
     "recommended_songs": [
         {
-            "name": "Sleeper",
-            "artist": "Pompeii",
-            "album": "Loom",
-            "url": "https://open.spotify.com/track/4VPEA6U3ozfrCXWeBcnelw"
+            "name": "Illusion",
+            "artist": "The KingDom",
+            "album": "History Of Kingdom: Pt. IV. Dann",
+            "url": "https://open.spotify.com/track/3DBehyEDPj1DjdymdH7JWO"
         },
         {
-            "name": "Milk Teeth",
-            "artist": "Keaton Henson",
-            "album": "Birthdays",
-            "url": "https://open.spotify.com/track/6pd1kpbJilmjHcPSZo1YOg"
+            "name": "The Little Name",
+            "artist": "ADORA",
+            "album": "The Little Name",
+            "url": "https://open.spotify.com/track/5tdzH8IkV62pyL1BHXrfmv"
         },
         {
-            "name": "Event Horizon",
-            "artist": "Younha",
-            "album": "YOUNHA 6th Album Repackage 'END THEORY : Final Edition'",
-            "url": "https://open.spotify.com/track/6RBziRcDeiho3iTPdtEeg9"
+            "name": "On The Island",
+            "artist": "Whee In",
+            "album": "IN the mood",
+            "url": "https://open.spotify.com/track/6xazDXOamFXROEP9MZEjup"
         }
     ],
     "recommended_artists": {
-        "7nqOGRxlXj7N2JYbgNEjYH": {
-            "name": "SEVENTEEN",
-            "url": "https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH"
+        "26VFTg2z8YR0cCuwLzESi2": {
+            "name": "Halsey",
+            "url": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2"
         },
-        "5qRSs6mvI17zrkJpOHkCoM": {
-            "name": "iKON",
-            "url": "https://open.spotify.com/artist/5qRSs6mvI17zrkJpOHkCoM"
+        "0ebNdVaOfp6N0oZ1guIxM8": {
+            "name": "SUGA",
+            "url": "https://open.spotify.com/artist/0ebNdVaOfp6N0oZ1guIxM8"
         },
-        "38Gn0ZVC8TQwuaMxBK1yRV": {
-            "name": "JUN",
-            "url": "https://open.spotify.com/artist/38Gn0ZVC8TQwuaMxBK1yRV"
+        "3Nrfpe0tUJi4K4DXYWgMUX": {
+            "name": "BTS",
+            "url": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
+        },
+        "5r1tUTxVSgvBHnoDuDODPH": {
+            "name": "IZ*ONE",
+            "url": "https://open.spotify.com/artist/5r1tUTxVSgvBHnoDuDODPH"
+        },
+        "0cxNfEa3UFPqeMaUudfKtj": {
+            "name": "User Youth",
+            "url": "https://open.spotify.com/artist/0cxNfEa3UFPqeMaUudfKtj"
         }
     },
     "current_song": {

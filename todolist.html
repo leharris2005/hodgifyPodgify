@@ -9,7 +9,27 @@
  <a href="index.html"> Take Me Back <br></a>
  <div class="image-container">
      <img src="https://i.imghippo.com/files/MI8156ecE.jpg" alt="To Do List" width="500" height="700">
-     <div class="overlay-text-past8songs"> first song <br> second song <br> third song <br> fourth song <br> fifth song <br> sixth song <br> seventh song <br> eigth song</div>
+     <div class="overlay-text-past8songs"></div>
  </div>
+ <script>
+    function populateRecentSongs(obj) {
+        const recentlyPlayedSongs = document.querySelector('.overlay-text-past8songs');
+        const text = document.createElement('p');
+        text.textContent = `${obj.title} - ${obj.artists.join(' - ')}`;
+        recentlyPlayedSongs.appendChild(text);
+    }
+
+    fetch('spotify_data.json')
+        .then(response => response.json())
+        .then(data => {
+            const recentSongs = data.recently_played_songs; 
+            recentSongs.forEach(song => {
+                console.log(`Title: ${song.title}`);
+                console.log(`Artists: ${song.artists.join(', ')}`);
+                populateRecentSongs(song);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+</script>
 </body>
 </html>

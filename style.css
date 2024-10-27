@@ -81,17 +81,18 @@ h6{
 
 .overlay-text-currentlyplaying{
   position: absolute;
-  top: 23%;
-  left: 49.5%;
+  top: 40%;
+  left: 37%;
   color: #E35C71;
-  font-size: 2.3vw;
+  font-size: 1.9vw;
   font-family: "Verdana", sans-serif;
-  width: 27vw;
+  line-height: 1vw;
+  width: 60vw;
 }
 
 .overlay-text-fivesongs{
   position: absolute;
-  top: 24.5%;
+  top: 44%;
   left: 3%;
   color: #26CDD1;
   font-size: 2vw;
@@ -101,33 +102,38 @@ h6{
 }
 .overlay-text-topartists{
   position: absolute;
-  top: 45%;
-  left: 55%;
-  color: #ff8b5a;
-  font-size: 2.7vw;
-  font-family: "Verdana", sans-serif;
-  width: 38vw;
-  line-height: 3vw;
-}
-.overlay-text-genres{
-  position: absolute;
-  top: 79.5%;
-  left: 5%;
+  top: 47%;
+  left: 54%;
   color: #ff8b5a;
   font-size: 3vw;
   font-family: "Verdana", sans-serif;
-  width: 65vw;
-  line-height: 4vw;
+  width: 38vw;
+  line-height: 4.1vw;
+}
+.overlay-text-genres{
+  position: absolute;
+  top: 145%;
+  left: -9%;
+  color: #ff8b5a;
+  font-size: 2.5vw;
+  font-family: "Verdana", sans-serif;
+  width: 90vw;
+  line-height: 3vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 .overlay-text-past8songs{
   position: absolute;
-  top: 13.5%;
-  left: 15%;
+  top: 24%;
+  left: 7%;
   color: #ff8b5a;
-  font-size: 4.5vw;
+  font-size: 2.240vw;
   font-family: "Verdana", sans-serif;
-  width: 70vw;
-  line-height: 13.6vw;
+  width: 90vw;
+  line-height: 10.5vw;
+  word-spacing: .0001vw;
+  letter-spacing: .00001vw;
+
 }
 .overlay-image-currentlyplaying{
   position: absolute;
@@ -135,4 +141,32 @@ h6{
   left: 43.5%;
   width: 5vw;
   height: auto;
+}
+.image-container {
+  position: relative; /* Make this container relative for absolute positioning */
+  width: 100%;
+  height: 500px;/* Optional: add a border to the container */
+}
+
+.album {
+  position: absolute; /* Position each album absolutely */
+  text-align: center; /* Center the text under the image */
+}
+
+#album1 {
+  width: 122px;
+  top: 465px; /* Position Album 1 */
+  left: 100px; /* Position Album 1 */
+}
+
+#album2 {
+  width: 122px;
+  top: 672px; /* Position Album 2 */
+  left: 485px; /* Position Album 2 */
+}
+
+#album3 {
+  width: 122px;
+  top: 216px; /* Position Album 3 */
+  left: 510px; /* Position Album 3 */
 }

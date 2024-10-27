@@ -290,7 +290,7 @@ def save_data_to_json():
 
 recently_played_songs = get_recently_played_songs()
 top_5_songs = get_top_5_songs()
-top_3_album_covers = get_top_3_artists()
+top_3_album_covers = get_top_3_album_covers()
 recommended_songs = recommend_songs()
 recommended_artists = recommend_artists()
 current_song = songPlayingNow()

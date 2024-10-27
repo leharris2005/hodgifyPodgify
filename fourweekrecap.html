@@ -12,8 +12,129 @@
     <img src="https://i.imghippo.com/files/TkM9801LaI.jpg" alt="4 week recap" width="500" height="700">
     <div class="overlay-text-fivesongs"></div>
     <div class="overlay-text-topartists"></div>
-    <div class="overlay-text-currentlyplaying"> Song i'm currently playing with a long title </div>
+    <script>
+        function populateTopArtists(artists) {
+            const topArtistsContainer = document.querySelector('.overlay-text-topartists');
+            
+            // Clear any previous content (optional)
+            topArtistsContainer.innerHTML = '';
+
+            artists.forEach(artist => {
+                // Create a div for each artist
+                const artistDiv = document.createElement('div');
+                artistDiv.classList.add('artist'); // Add a class for styling
+                
+                // Create and append the artist rank and name
+                const artistText = document.createElement('p');
+                artistText.textContent = `Rank ${artist.rank}: ${artist.name}`; // Format as "Rank X: Artist Name"
+                artistDiv.appendChild(artistText); // Append the artist paragraph
+                
+                // Append artistDiv to the container
+                topArtistsContainer.appendChild(artistDiv);
+            });
+        }
+    
+        fetch('spotify_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const topArtists = data.top_artists; // Assuming you have a top_artists array in your JSON
+                console.log(topArtists); // Log top artists for debugging
+                populateTopArtists(topArtists); // Call the function with the top artists array
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+    <div class="overlay-text-currentlyplaying"></div>
+    <script>
+        function populateCurrentSong(obj) {
+            const currentSong = document.querySelector('.overlay-text-currentlyplaying');
+            
+            // Create and append the song title
+            const titleText = document.createElement('p');
+            titleText.textContent = obj.title; // Set song title as text content
+            currentSong.appendChild(titleText); // Append the title paragraph
+    
+            // Create and append the artists string
+            const artistsText = document.createElement('p'); // Create a new paragraph for artists
+            artistsText.textContent = obj.artists; // Directly assign the artists string
+            currentSong.appendChild(artistsText); // Append the artists paragraph
+        }
+    
+        fetch('spotify_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const currentSong = data.current_song; 
+                console.log(`Title: ${currentSong.title}`); // Log title for debugging
+                console.log(`Artists: ${currentSong.artists}`); // Log artists for debugging
+                populateCurrentSong(currentSong); // Call the function with the current song object
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+       
+    
     <div class="overlay-text-genres"></div>
+    <script>
+        function populateRecentGenres(genre) {
+        const recentGenres = document.querySelector('.overlay-text-genres');
+        const text = document.createElement('p');
+        text.textContent = genre;
+        recentGenres.appendChild(text);
+    }
+
+    fetch('spotify_data.json')
+        .then(response => response.json())
+        .then(data => {
+            const recentGenres = data.top_genres; 
+            recentGenres.forEach(item => {
+                const genreName = item[0];
+                console.log(genreName)
+                populateRecentGenres(genreName);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+</script>
+<div class="overlay-image-album"></div>
+<div class="album-covers"> <!-- Container for album covers -->
+    <div class="album" id="album1"></div>
+    <div class="album" id="album2"></div>
+    <div class="album" id="album3"></div>
+</div>
+</div>
+<script>
+    // Fetch album data from JSON
+    fetch('spotify_data.json')
+        .then(response => response.json())
+        .then(data => {
+            const albums = data.top_3_album_covers; // Get the top 3 album covers
+            
+            // Check if albums array is populated
+            if (albums.length < 3) {
+                console.error("Not enough albums available.");
+                return;
+            }
+
+            // Set the first three albums in specified locations
+            const album1 = document.getElementById('album1');
+            const album2 = document.getElementById('album2');
+            const album3 = document.getElementById('album3');
+
+            // Populate album 1
+            album1.innerHTML = `
+                <img src="${albums[0].album_art}" alt="Cover of ${albums[0].title}" />
+            `;
+
+            // Populate album 2
+            album2.innerHTML = `
+                <img src="${albums[1].album_art}" alt="Cover of ${albums[1].title}" />
+            `;
+
+            // Populate album 3
+            album3.innerHTML = `
+                <img src="${albums[2].album_art}" alt="Cover of ${albums[2].title}" />
+            `;
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+</script>
+
 </div>
 </body>
 </html>
