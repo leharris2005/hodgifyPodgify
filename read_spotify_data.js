@@ -2,15 +2,22 @@
 function populateSongs(obj) {
     const top5Songs = document.querySelector('.overlay-text-fivesongs');
     const text = document.createElement('p');
-    text.textContent = `${obj.title}, ${obj.artists.join(', ')}`;
+    text.textContent = `${obj.title}, ${obj.artists.join(' - ')}`;
     top5Songs.appendChild(text);
 }
 
 function populateArtists(obj) {
     const topArtists = document.querySelector('.overlay-text-topartists');
     const text = document.createElement('p');
-    text.textContent = `Name: ${obj.name.name}\nArt: ${obj.art}`;
+    text.textContent = `${obj.name.name}\n`;
     topArtists.appendChild(text);
+}
+
+function populateGenre(obj) {
+    const genres = document.querySelector('.overlay-text-genres');
+    const text = document.createElement('p');
+    text.textContent = `${obj}\n`;
+    genres.appendChild(text);
 }
 
 fetch('spotify_data.json')
@@ -28,6 +35,11 @@ fetch('spotify_data.json')
             console.log(`Name: ${topArtist.name.name}`);
             console.log(`Art: ${topArtist.art}`);
             populateArtists(topArtist);
+        });
+        const topAlbum = top_3_album_covers;
+        topAlbum.forEach(album => {
+            console.log(`Name: ${album.name}`);
+            console.log(`Art: ${album.art}`);
         });
         const recommendedSong = data.recommended_songs;
         recommendedSong.forEach(song => {
