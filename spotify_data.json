@@ -1,6 +1,13 @@
 {
     "recently_played_songs": [
         {
+            "title": "Crickets Chirping",
+            "artists": [
+                "Lost & Sound"
+            ],
+            "album_art": "https://i.scdn.co/image/ab67616d0000b273673fca653083df850f91c039"
+        },
+        {
             "title": "If I Ruled the World",
             "artists": [
                 "BTS"
@@ -49,20 +56,6 @@
                 "RM"
             ],
             "album_art": "https://i.scdn.co/image/ab67616d0000b273080a745e13dec66b01f7b318"
-        },
-        {
-            "title": "Rainy Days",
-            "artists": [
-                "V"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b2738e504c5aedaae49a73ed4963"
-        },
-        {
-            "title": "First Love",
-            "artists": [
-                "BTS"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b2738bd5d941f9ced8e7f9c60dd4"
         }
     ],
     "top_5_songs": [
@@ -100,34 +93,6 @@
                 "PURPLE KISS"
             ],
             "album_art": "https://i.scdn.co/image/ab67616d0000b2730b479d89335fbca7de943443"
-        },
-        {
-            "title": "THE GREATEST",
-            "artists": [
-                "Billie Eilish"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"
-        },
-        {
-            "title": "UP - KARINA Solo",
-            "artists": [
-                "aespa"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b273253096eda3b7826c11c7fab8"
-        },
-        {
-            "title": "T4ke",
-            "artists": [
-                "PURPLE KISS"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b273d0a630ea925711a258bb3c93"
-        },
-        {
-            "title": "ZzZz",
-            "artists": [
-                "PURPLE KISS"
-            ],
-            "album_art": "https://i.scdn.co/image/ab67616d0000b2730865f5f5799f2ee1b3c0fcec"
         }
     ],
     "top_3_album_covers": [
@@ -368,48 +333,79 @@
     ],
     "recommended_songs": [
         {
-            "name": "Hot Candy",
-            "artist": "HOT ISSUE",
-            "album": "ICONS",
-            "url": "https://open.spotify.com/track/3eRqx9ex2IBLXinhBGq5BR"
+            "name": "FLASH",
+            "artist": "Rocket Punch",
+            "album": "FLASH",
+            "url": "https://open.spotify.com/track/2Purw8ZAANLan4cMqsKVp7"
         },
         {
-            "name": "Pretend You're Alive",
-            "artist": "Lovedrug",
-            "album": "Pretend You're Alive",
-            "url": "https://open.spotify.com/track/0URU0a34q0tLNUC7pHEE79"
+            "name": "Pray for Your Enemies",
+            "artist": "GODSXHILD, JEFSOWNZ, Pompeii",
+            "album": "Fear or Love",
+            "url": "https://open.spotify.com/track/7HtSzBPTfABilY3KnDAaCf"
         },
         {
-            "name": "Be My Next",
-            "artist": "RIIZE",
-            "album": "Lucky",
-            "url": "https://open.spotify.com/track/4qbd4V3cSPzXX1jXOnxJLS"
-        },
-        {
-            "name": "Monster",
+            "name": "didn't know",
             "artist": "DAY6",
-            "album": "Band Aid",
-            "url": "https://open.spotify.com/track/3nSyllwWNp9XuLKqCWswVv"
-        },
-        {
-            "name": "Diver",
-            "artist": "YooA",
-            "album": "Bon Voyage",
-            "url": "https://open.spotify.com/track/1bJc2ivsnNXzMMysHN1tuB"
+            "album": "Fourever",
+            "url": "https://open.spotify.com/track/5w7gTLyEWG3zXlawkP4Kf7"
         }
     ],
     "recommended_artists": {
-        "6XXKPxRX2WWPPtfodzpc2v": {
-            "name": "KEY",
-            "url": "https://open.spotify.com/artist/6XXKPxRX2WWPPtfodzpc2v"
+        "6fyUMxz3J2qb6Nq6HhCCGt": {
+            "name": "Jonathan Geer",
+            "url": "https://open.spotify.com/artist/6fyUMxz3J2qb6Nq6HhCCGt"
         },
-        "0Ph31fnwwrbxz5d7mEE1Zv": {
-            "name": "Yasunori Nishiki",
-            "url": "https://open.spotify.com/artist/0Ph31fnwwrbxz5d7mEE1Zv"
+        "41MozSoPIsD1dJM0CLPjZF": {
+            "name": "BLACKPINK",
+            "url": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
         },
-        "49muoiIu4uea4PO8vueUNN": {
-            "name": "YENA",
-            "url": "https://open.spotify.com/artist/49muoiIu4uea4PO8vueUNN"
+        "2dIgFjalVxs4ThymZ67YCE": {
+            "name": "Stray Kids",
+            "url": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
         }
-    }
+    },
+    "current_song": {
+        "title": "Crickets Chirping",
+        "artists": "Lost & Sound",
+        "album_art": "https://i.scdn.co/image/ab67616d0000b273673fca653083df850f91c039"
+    },
+    "top_genres": [
+        [
+            "k-pop",
+            9
+        ],
+        [
+            "5th gen k-pop",
+            5
+        ],
+        [
+            "k-pop boy group",
+            4
+        ],
+        [
+            "pop",
+            4
+        ],
+        [
+            "k-rap",
+            3
+        ],
+        [
+            "indie game soundtrack",
+            1
+        ],
+        [
+            "modern rock",
+            1
+        ],
+        [
+            "pov: indie",
+            1
+        ],
+        [
+            "rock",
+            1
+        ]
+    ]
 }
