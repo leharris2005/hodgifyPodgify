@@ -16,20 +16,19 @@
         function populateTopArtists(artists) {
             const topArtistsContainer = document.querySelector('.overlay-text-topartists');
             
-            // Clear any previous content (optional)
+            
             topArtistsContainer.innerHTML = '';
 
             artists.forEach(artist => {
-                // Create a div for each artist
                 const artistDiv = document.createElement('div');
                 artistDiv.classList.add('artist'); // Add a class for styling
                 
-                // Create and append the artist rank and name
+                
                 const artistText = document.createElement('p');
                 artistText.textContent = `Rank ${artist.rank}: ${artist.name}`; // Format as "Rank X: Artist Name"
                 artistDiv.appendChild(artistText); // Append the artist paragraph
                 
-                // Append artistDiv to the container
+               
                 topArtistsContainer.appendChild(artistDiv);
             });
         }
@@ -48,12 +47,12 @@
         function populateCurrentSong(obj) {
             const currentSong = document.querySelector('.overlay-text-currentlyplaying');
             
-            // Create and append the song title
+            
             const titleText = document.createElement('p');
             titleText.textContent = obj.title; // Set song title as text content
             currentSong.appendChild(titleText); // Append the title paragraph
     
-            // Create and append the artists string
+           
             const artistsText = document.createElement('p'); // Create a new paragraph for artists
             artistsText.textContent = obj.artists; // Directly assign the artists string
             currentSong.appendChild(artistsText); // Append the artists paragraph
@@ -106,28 +105,28 @@
         .then(data => {
             const albums = data.top_3_album_covers; // Get the top 3 album covers
             
-            // Check if albums array is populated
+            
             if (albums.length < 3) {
                 console.error("Not enough albums available.");
                 return;
             }
 
-            // Set the first three albums in specified locations
+            
             const album1 = document.getElementById('album1');
             const album2 = document.getElementById('album2');
             const album3 = document.getElementById('album3');
 
-            // Populate album 1
+            
             album1.innerHTML = `
                 <img src="${albums[0].album_art}" alt="Cover of ${albums[0].title}" />
             `;
 
-            // Populate album 2
+          
             album2.innerHTML = `
                 <img src="${albums[1].album_art}" alt="Cover of ${albums[1].title}" />
             `;
 
-            // Populate album 3
+          
             album3.innerHTML = `
                 <img src="${albums[2].album_art}" alt="Cover of ${albums[2].title}" />
             `;
