@@ -22,14 +22,14 @@ a:link {
   text-decoration: underline;
   text-align: center;
   margin: 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 a:visited {
   color: #FF8A5B;
   text-decoration: underline;
   text-align: center;
   margin: 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h6{
@@ -81,23 +81,23 @@ h6{
 
 .overlay-text-currentlyplaying{
   position: absolute;
-  top: 22%;
-  left: 44%;
+  top: 23%;
+  left: 49.5%;
   color: #E35C71;
   font-size: 2.3vw;
   font-family: "Verdana", sans-serif;
-  width: 30vw;
+  width: 27vw;
 }
 
 .overlay-text-fivesongs{
   position: absolute;
-  top: 25%;
-  left: 6%;
+  top: 24.5%;
+  left: 3%;
   color: #26CDD1;
-  font-size: 2.3vw;
+  font-size: 2vw;
   font-family: "Verdana", sans-serif;
-  width: 35vw;
-  line-height: 5vw;
+  width: 40vw;
+  line-height: 2.2vw;
 }
 .overlay-text-topartists{
   position: absolute;
@@ -128,4 +128,11 @@ h6{
   font-family: "Verdana", sans-serif;
   width: 70vw;
   line-height: 13.6vw;
+}
+.overlay-image-currentlyplaying{
+  position: absolute;
+  top: 23%;
+  left: 43.5%;
+  width: 5vw;
+  height: auto;
 }
