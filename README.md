@@ -17,3 +17,6 @@ Used the Spotipy API, a Python wrapper for Spotify's Web API, to gather user's s
 
 ## Framework
 Backend used Python to generate user Spotify data with the Spotipy API, then writing it into JSON format. Javascript is then used to parse through the JSON to put the user's data onto their dedicated spaces on the website. Standard HTML and CSS is used for front-end design, with background images hand-drawn by the lovely Emerson!
+
+## Unfinished Features
+By the end of the Hello World 2024 hackathon, our project has not completed adding the bucket list page data, or synced the spotify data to the current user (right now it takes data from Lauren's spotify data). We wish to continue adding such features in the near future.
